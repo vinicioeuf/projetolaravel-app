@@ -13,11 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-    // Route::get('/', function () {
-    //     return view('teste');
-    // });
-
-Route::get('/teste/{name?}', function($name = null){
-    return view('teste', ['nomeTeste'=>$name]);
+Route::get('/', function () {
+    return view('welcome');
 });
+
+
 
