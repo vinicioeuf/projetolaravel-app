@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/welcome', [ControlaProj::class, 'index']);
+Route::get('/index', [ControlaProj::class, 'index']);
 
 
